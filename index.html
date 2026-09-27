@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Global 360 - Innovación Didáctica</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --bg: #f8fafc;
+            --text: #334155;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 { margin: 0 0 10px 0; font-size: 2.5rem; }
+        header p { margin: 5px 0; font-size: 1.1rem; opacity: 0.9; }
+        nav {
+            background: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            z-index: 100;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--secondary); text-decoration: underline; }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--primary);
+        }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; margin-top: 0; }
+        h3 { color: var(--secondary); margin-top: 1.5rem; }
+        .btn {
+            display: inline-block;
+            background-color: #10b981;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 1rem;
+            text-align: center;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .btn:hover { background-color: #059669; }
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 0.5rem 1rem;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .btn-outline:hover { background-color: var(--primary); color: white; }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            margin: 1.5rem 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .forum-box, .task-box {
+            background-color: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 1px solid var(--border);
+        }
+        .task-box { background-color: #f0fdf4; border-color: #bbf7d0; }
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            height: 100px;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            font-family: inherit;
+            margin-top: 10px;
+            resize: vertical;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #1e293b;
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Innovación Didáctica con IA</h1>
+        <p>Implementación de Aula Global 360 en Educación Física</p>
+        <p style="margin-top: 15px; font-size: 0.9rem;"><strong>Autores:</strong> Juan Pablo Pulgarin Jimenez y Carlos Andres Abaunza Barrera</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#unidad1">Unidad 1</a>
+        <a href="#unidad2">Unidad 2</a>
+        <a href="#unidad3">Unidad 3</a>
+        <a href="#unidad4">Unidad 4</a>
+        <a href="#unidad5">Unidad 5</a>
+    </nav>
+
+    <div class="container">
+        <!-- INICIO -->
+        <section id="inicio" class="card">
+            <h2>Bienvenida al Curso Virtual</h2>
+            <p>¡Bienvenidos a este espacio de innovación educativa! En este curso aprenderemos a transformar nuestras prácticas pedagógicas integrando el asistente <strong>'Aula Global 360'</strong>. Optimizaremos la evaluación de habilidades motrices y la planeación de clases para la escuela primaria mediante IA.</p>
+            <h3>Metodología</h3>
+            <p>Implementamos el Aprendizaje Basado en Proyectos (ABP) garantizando un <strong>50% de recursos curados de la web</strong> (videos, normativas) y un <strong>50% de recursos propios</strong>, representados en nuestra herramienta de Inteligencia Artificial desarrollada a medida.</p>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="https://juanpablopulgarin11.github.io/AULAGLOBAL360/" target="_blank" class="btn">🚀 Abrir Herramienta Aula Global 360 (Recurso Propio)</a>
+            </div>
+        </section>
+
+        <!-- UNIDAD 1 -->
+        <section id="unidad1" class="card">
+            <h2>Unidad 1: Evaluación de Habilidades Motrices</h2>
+            <p><strong>Introducción:</strong> La evaluación en educación física primaria requiere observación precisa. Veremos cómo interactuar con el chatbot Aula Global 360 para agilizar este diagnóstico.</p>
+            
+            <h3>Recurso Web (50%)</h3>
+            <p>Revisa este material sobre patrones básicos de movimiento infantil:</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/l3UR2vWgFKc" title="Habilidades motrices básicas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="forum-box">
+                <h3 style="margin-top: 0; color: #1e40af;">💬 Foro Formativo: Análisis de caso motor</h3>
+                <p><strong>Instrucciones:</strong> Observa el video anterior y debate: <em>¿En qué fase de ejecución se encuentra el estudiante? Justifica tu respuesta describiendo la posición del cuerpo.</em></p>
+                <textarea placeholder="Escribe tu aporte al foro aquí..."></textarea>
+                <button class="btn btn-outline" onclick="alert('Esta es una demostración. En la plataforma real, tu aporte se publicaría en el foro de discusión.')">Publicar en el Foro</button>
+            </div>
+
+            <div class="task-box">
+                <h3 style="margin-top: 0; color: #166534;">📄 Tarea Sumativa: Diagnóstico Asistido</h3>
+                <p><strong>Instrucciones:</strong> Ingresa a nuestra App Aula Global 360 usando el botón de inicio. Pásale a la IA los datos de una observación motriz simulada. Exporta la respuesta y súbela aquí.</p>
+                <button class="btn" style="background-color: #166534;" onclick="alert('Se abriría la ventana para subir tu archivo PDF.')">Subir Archivo PDF</button>
+            </div>
+        </section>
+
+        <!-- UNIDAD 2 -->
+        <section id="unidad2" class="card">
+            <h2>Unidad 2: Planeación de Clases de Educación Física</h2>
+            <p><strong>Introducción:</strong> Aprenderemos a dar instrucciones precisas (ingeniería de prompts) al chatbot para el diseño estructurado de sesiones.</p>
+            
+            <h3>Recurso Propio: Estructura de Prompts (C.R.E.A)</h3>
+            <ul>
+                <li><strong>Contexto:</strong> "Actúa como un licenciado en educación física experto en desarrollo motor..."</li>
+                <li><strong>Requerimiento:</strong> "Crea una sesión de 45 minutos para niños de 9 años..."</li>
+                <li><strong>Especificidad:</strong> "El objetivo central es mejorar la coordinación óculo-manual..."</li>
+                <li><strong>Ajuste:</strong> "Divide la clase en calentamiento, fase central y vuelta a la calma en una tabla."</li>
+            </ul>
+
+            <div class="task-box">
+                <h3 style="margin-top: 0; color: #166534;">📄 Tarea Sumativa: Planeación Didáctica 360</h3>
+                <p><strong>Instrucciones:</strong> Usar la estructura C.R.E.A en Aula Global 360. Ajustar la propuesta generada por la IA a tu contexto real y entregar el plan de clase.</p>
+                <button class="btn" style="background-color: #166534;" onclick="alert('Se abriría la ventana para subir tu archivo de planeación.')">Subir Planeación</button>
+            </div>
+        </section>
+
+        <!-- UNIDAD 3 -->
+        <section id="unidad3" class="card">
+            <h2>Unidad 3: Diseño de Materiales Educativos</h2>
+            <p><strong>Introducción:</strong> Ya diagnosticamos y planeamos; ahora construiremos los recursos e instrumentos de evaluación con asistencia de IA.</p>
+            
+            <div class="forum-box">
+                <h3 style="margin-top: 0; color: #1e40af;">💬 Foro: Criterios de Evaluación</h3>
+                <p><strong>Instrucciones:</strong> Debate con tus compañeros cuáles son los criterios técnicos y actitudinales más importantes a evaluar en una unidad didáctica de iniciación deportiva.</p>
+                <textarea placeholder="Redacta tus criterios aquí..."></textarea>
+                <button class="btn btn-outline" onclick="alert('Aporte guardado en la base de datos de demostración.')">Enviar al Foro</button>
+            </div>
+
+            <div class="task-box">
+                <h3 style="margin-top: 0; color: #166534;">📄 Tarea Sumativa: Rúbrica con IA</h3>
+                <p><strong>Instrucciones:</strong> Solicita al chatbot Aula Global 360 la creación de una rúbrica formativa basada en los criterios del foro. Ajusta y entrega.</p>
+                <button class="btn" style="background-color: #166534;" onclick="alert('Se abriría la ventana para adjuntar tu rúbrica.')">Entregar Rúbrica</button>
+            </div>
+        </section>
+
+        <!-- UNIDAD 4 -->
+        <section id="unidad4" class="card">
+            <h2>Unidad 4: Integración y Seguimiento</h2>
+            <p><strong>Introducción:</strong> Implementaremos estrategias de seguimiento al desempeño motor analizando datos longitudinales.</p>
+
+            <div class="forum-box">
+                <h3 style="margin-top: 0; color: #1e40af;">💬 Foro: El Histórico Motor</h3>
+                <p><strong>Instrucciones:</strong> Analiza la necesidad de llevar un histórico del desarrollo motor en primaria. ¿Qué ventajas nos ofrece frente a la evaluación tradicional?</p>
+                <textarea placeholder="Escribe tu análisis aquí..."></textarea>
+                <button class="btn btn-outline" onclick="alert('Aporte guardado.')">Participar</button>
+            </div>
+
+            <div class="task-box">
+                <h3 style="margin-top: 0; color: #166534;">📄 Tarea Sumativa: Reporte Longitudinal</h3>
+                <p><strong>Instrucciones:</strong> Crear un reporte simulado de seguimiento de un estudiante usando Aula Global 360 y entrégalo aquí.</p>
+                <button class="btn" style="background-color: #166534;" onclick="alert('Ventana de carga de reporte.')">Subir Reporte</button>
+            </div>
+        </section>
+
+        <!-- UNIDAD 5 -->
+        <section id="unidad5" class="card">
+            <h2>Unidad 5: Proyecto Final y Reflexión Ética</h2>
+            <p><strong>Introducción:</strong> Consolidación de aprendizajes y reflexión sobre la ética profesional en el uso de Inteligencia Artificial.</p>
+            
+            <h3>Recurso Web (50%) - Marco Normativo</h3>
+            <p>Documentos de consulta obligatoria para el foro:</p>
+            <div style="display: flex; flex-wrap: wrap;">
+                <a href="https://www.mineducacion.gov.co/1621/articles-85919_archivo_pdf.pdf" target="_blank" class="btn btn-outline">📜 Leer Ley 181 del Deporte</a>
+                <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=186986" target="_blank" class="btn btn-outline">⚖️ Leer Ley 2210 de 2022</a>
+            </div>
+
+            <div class="forum-box" style="margin-top: 2rem;">
+                <h3 style="margin-top: 0; color: #1e40af;">💬 Foro Formativo: Debate Ético</h3>
+                <p><strong>Instrucciones:</strong> Sustentado en la Ley 181 y la Ley 2210, discute sobre la privacidad de los datos de menores en el deporte al utilizar herramientas de IA.</p>
+                <textarea placeholder="Ingresa tu reflexión ética..."></textarea>
+                <button class="btn btn-outline" onclick="alert('Reflexión enviada al debate.')">Enviar Reflexión</button>
+            </div>
+
+            <div class="task-box" style="margin-top: 2rem;">
+                <h3 style="margin-top: 0; color: #166534;">🏆 Proyecto Final: Portafolio Innovador</h3>
+                <p><strong>Instrucciones:</strong> Entrega el portafolio completo (diagnóstico, planeación y rúbrica) junto con un ensayo reflexivo sobre tu experiencia usando Aula Global 360.</p>
+                <button class="btn" style="background-color: #166534; width: 100%;" onclick="alert('Entrega final del curso procesada exitosamente.')">Subir Proyecto Final</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>Diseño de Planeación Didáctica - Actividad 3</strong></p>
+        <p>Seminario de Profundización I: Innovación Didáctica</p>
+        <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 10px;">Desarrollado para fines académicos © 2026</p>
+    </footer>
+
+</body>
+</html>
